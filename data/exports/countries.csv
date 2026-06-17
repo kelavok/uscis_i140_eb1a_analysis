@@ -1,0 +1,18 @@
+﻿id,country_name,iso_alpha2,iso_alpha3,uscis_country_label,notes,country_code
+126,Chinese Nationals,,,Chinese Nationals,,CHINESE_NATIONALS
+3,India,,,India,,INDIA
+28,Brazil_FY24,,,Brazil_FY24,,BRAZIL_FY24
+4,China,,,China,,CHINA
+30,Philippines_FY24,,,Philippines_FY24,,PHILIPPINES_FY24
+31,Nigeria_FY24,,,Nigeria_FY24,,NIGERIA_FY24
+71,South Korea,,,South Korea,,SOUTH_KOREA
+32,India_FY24,,,India_FY24,,INDIA_FY24
+134,Indian Nationals,,,Indian Nationals,,INDIAN_NATIONALS
+5,Brazil,,,Brazil,,BRAZIL
+6,Philippines,,,Philippines,,PHILIPPINES
+35,All_Countries_FY24,,,All_Countries_FY24,,ALL_COUNTRIES_FY24
+7,Vietnam,,,Vietnam,,VIETNAM
+37,China_FY24,,,China_FY24,,CHINA_FY24
+78,Mexico,,,Mexico,,MEXICO
+38,Nigeria,,,Nigeria,,NIGERIA
+1,All Countries,,,All Countries,Aggregate across all countries,ALL

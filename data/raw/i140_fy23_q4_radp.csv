@@ -1,0 +1,35 @@
+﻿Form I-140 Immigrant Petition for Alien Worker,,,,,,,,,,,,,,,,,,,,
+"By Fiscal Year, Quarter, and Case Status",,,,,,,,,,,,,,,,,,,,
+Fiscal Year 2023 (Q4),,,,,,,,,,,,,,,,,,,,
+,1st Quarter,,,,2nd Quarter,,,,3rd Quarter,,,,4th Quarter,,,,Fiscal Year Total,,,
+,Received1,Approved2,Denied3,Pending4,Received1,Approved2,Denied3,Pending4,Received1,Approved2,Denied3,Pending4,Received1,Approved2,Denied3,Pending4,Received1,Approved2,Denied3,Pending4
+TOTAL,"40,163","42,811","4,088","47,902","45,506","44,777","4,575","46,014","52,071","41,247","4,726","53,190","51,288","39,755","6,248","60,552","189,028","168,590","19,637","60,552"
+First Preference (EB1),"9,090","7,844","1,232","13,808","8,273","8,016","1,461","12,825","9,692","7,650","1,396","13,596","10,216","7,959","1,435","14,473","37,271","31,469","5,524","14,473"
+Alien of Extraordinary Ability (E11),"3,463","2,367",823,"6,382","3,569","2,400","1,045","6,588","4,278","2,580","1,097","7,265","4,595","3,009","1,191","7,657","15,905","10,356","4,156","7,657"
+Outstanding Professor or Researcher (E12),"1,310","1,400",120,615,"1,328","1,274",99,605,"1,404","1,177",81,767,"1,476","1,189",34,"1,019","5,518","5,040",334,"1,019"
+Multi-national Executive or Manager (E13),"4,317","4,077",289,"6,811","3,376","4,342",317,"5,632","4,010","3,893",218,"5,564","4,145","3,761",210,"5,797","15,848","16,073","1,034","5,797"
+Second Preference (EB2),"19,770","20,616","1,890","23,040","22,239","22,488","2,388","21,399","24,774","19,840","2,809","24,119","26,227","18,921","4,151","28,550","93,010","81,865","11,238","28,550"
+Professionals with Advanced Degrees (E21),"10,963","13,006",542,"4,224","14,119","13,284",707,"5,183","14,247","12,442",609,"6,855","13,878","11,244","1,208","9,433","53,207","49,976","3,066","9,433"
+National Interest Waiver (NIW),"8,807","7,610","1,348","18,816","8,120","9,204","1,681","16,216","10,527","7,398","2,200","17,264","12,349","7,677","2,943","19,117","39,803","31,889","8,172","19,117"
+Third Preference (EB3),"11,303","14,351",966,"11,054","14,994","14,273",726,"11,790","17,605","13,757",521,"15,475","14,845","12,875",662,"17,529","58,747","55,256","2,875","17,529"
+Skilled Worker (E31),"4,583","5,424",345,"3,131","6,644","6,112",227,"3,698","8,688","6,450",213,"5,840","6,501","5,616",283,"6,801","26,416","23,602","1,068","6,801"
+Professionals with Baccalaureate Degrees (E32),"4,304","5,808",283,"2,385","5,635","5,541",274,"2,444","5,947","5,103",168,"3,242","4,985","4,388",232,"3,844","20,871","20,840",957,"3,844"
+Needed Unskilled Workers (EW3),"2,416","3,119",338,"5,538","2,715","2,620",225,"5,648","2,970","2,204",140,"6,393","3,359","2,871",147,"6,884","11,460","10,814",850,"6,884"
+Table Key:,,,,,,,,,,,,,,,,,,,,
+N/A Not available,,,,,,,,,,,,,,,,,,,,
+- Represents zero or rounds to 0.0,,,,,,,,,,,,,,,,,,,,
+References:,,,,,,,,,,,,,,,,,,,,
+1  The number of new applications received and entered into a case-tracking system during the reporting period.,,,,,,,,,,,,,,,,,,,,
+2 The number of applications approved during the reporting period.,,,,,,,,,,,,,,,,,,,,
+3  The number of applications denied during the reporting period.,,,,,,,,,,,,,,,,,,,,
+4  The number of applications awaiting a decision as of the end of the reporting period.  Some actions taken on cases are not reflected in this report such as administrative closures and transfers between offices; ,,,,,,,,,,,,,,,,,,,,
+thus the total pending counts cannot be calculated using data from previous reporting periods.,,,,,,,,,,,,,,,,,,,,
+Notes:,,,,,,,,,,,,,,,,,,,,
+"1) Some applications approved, denied, or pending a decision may have been received in previous reporting periods. ",,,,,,,,,,,,,,,,,,,,
+2) The report reflects the most up-to-date estimate available at the time the database is queried.,,,,,,,,,,,,,,,,,,,,
+3) Counts may differ from previous periods due to system updates and post adjudicative outcomes.,,,,,,,,,,,,,,,,,,,,
+"4) Since petitioners are able to files more than one petition, this report includes all filed petitions; therefore, it could contain multiple petitions for a single individual. ",,,,,,,,,,,,,,,,,,,,
+"5) For a complete list of USCIS forms and descriptions, visit: https://www.uscis.gov/forms",,,,,,,,,,,,,,,,,,,,
+Source:,,,,,,,,,,,,,,,,,,,,
+"Department of Homeland Security, U.S. Citizenship and Immigration Services, Office of Performance and Quality",,,,,,,,,,,,,,,,,,,,
+"CLAIMS3, ELIS and NPD, queried 10/2023, TRK 13224",,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,27 @@
+# Local secrets
+.env
+*.local
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter local state
+.ipynb_checkpoints/
+
+# Runtime logs and temporary verification artifacts
+logs/
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PostgreSQL / local dumps that may be generated later
+*.dump
+*.backup
+

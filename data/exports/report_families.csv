@@ -1,0 +1,6 @@
+﻿id,report_family_code,report_family_name,description
+3,fy_received_current_status,Form I-140 Receipts and Current Status by Fiscal Year,USCIS report showing Form I-140 receipts and current status by fiscal year and category
+1,fy_quarter_status,"Form I-140 by Fiscal Year, Quarter and Case Status",Quarterly I-140 receipts/current status by employment preference.
+2,preference_country,Form I-140 Receipts and Current Status by Preference and Country,I-140 receipts/current status by preference and country/fiscal year.
+10,country_category,Form I-140 Receipts or Approvals by Country and Category,I-140 receipts/approvals by beneficiary country of birth and EB category.
+11,all_forms,Quarterly All Forms,Service-wide quarterly form status counts by form number.

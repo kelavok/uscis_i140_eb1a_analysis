@@ -1,0 +1,6 @@
+﻿id,status_code,status_name,is_outcome,is_current_status,notes
+1,received,Received,f,f,New applications received and entered into case-tracking system.
+2,approved,Approved,t,t,
+3,denied,Denied,t,t,
+4,pending,Pending,f,t,
+5,pending_other,"Pending, Other",f,t,USCIS label often used in fiscal-year/current-status reports.

@@ -1,0 +1,34 @@
+﻿Form I-140 Immigrant Petition for Alien Worker,,,,,,,,,,,,,,,,,,,,
+"By Fiscal Year, Quarter, and Case Status",,,,,,,,,,,,,,,,,,,,
+Fiscal Year 2023 (Q2),,,,,,,,,,,,,,,,,,,,
+,,          1st Quarter,,,,          2nd Quarter,,,,          3rd Quarter,,,,          4th Quarter,,,,        Fiscal Year Total,,
+,Received1,Approved2,Denied3,Pending4,Received1,Approved2,Denied3,Pending4,Received1,Approved2,Denied3,Pending4,Received1,Approved2,Denied3,Pending4,Received1,Approved2,Denied3,Pending4
+TOTAL,"40,161","42,908","4,128","47,567","43,513","43,886","4,648","44,501",,,,,,,,,"83,674","86,794","8,776","44,501"
+First Preference (EB1),"9,093","7,873","1,241","12,812","7,773","7,873","1,482","12,469",,,,,,,,,"16,866","15,746","2,723","12,469"
+   Alien of Extraordinary Ability (E11),"3,466","2,377",827,"6,426","3,331","2,342","1,062","6,485",,,,,,,,,"6,797","4,719","1,889","6,485"
+   Outstanding Professor or Researcher (E12),"1,311","1,412",120,583,"1,223","1,230",98,542,,,,,,,,,"2,534","2,642",218,542
+   Multi-national Executive or Manager (E13),"4,317","4,084",294,"5,803","3,219","4,301",322,"5,442",,,,,,,,,"7,536","8,385",616,"5,442"
+Second Preference (EB2),"19,769","20,654","1,914","22,639","21,556","22,163","2,424","20,656",,,,,,,,,"41,325","42,817","4,338","20,656"
+   Professionals with Advanced Degrees (E21),"10,959","13,039",546,"4,190","13,668","13,044",714,"4,831",,,,,,,,,"24,627","26,083","1,260","4,831"
+   National Interest Waiver (NIW),"8,810","7,615","1,368","18,449","7,889","9,119","1,710","15,825",,,,,,,,,"16,699","16,734","3,078","15,825"
+Third Preference (EB3),"11,300","14,381",973,"12,116","14,186","13,850",742,"11,376",,,,,,,,,"25,486","28,231","1,715","11,376"
+   Skilled Worker (E31),"4,584","5,429",347,"3,877","6,099","5,830",232,"3,346",,,,,,,,,"10,683","11,259",579,"3,346"
+   Professionals with Baccalaureate Degrees (E32),"4,303","5,822",287,"2,391","5,465","5,452",278,"2,295",,,,,,,,,"9,768","11,274",565,"2,295"
+   Needed Unskilled Workers (EW3),"2,414","3,130",339,"5,848","2,622","2,568",232,"5,735",,,,,,,,,"5,036","5,698",571,"5,735"
+Table Key:,,,,,,,,,,,,,,,,,,,,
+N/A Not available,,,,,,,,,,,,,,,,,,,,
+- Represents zero or rounds to 0.0,,,,,,,,,,,,,,,,,,,,
+References:,,,,,,,,,,,,,,,,,,,,
+1  The number of new applications received and entered into a case-tracking system during the reporting period.,,,,,,,,,,,,,,,,,,,,
+2 The number of applications approved during the reporting period.,,,,,,,,,,,,,,,,,,,,
+3  The number of applications denied during the reporting period.,,,,,,,,,,,,,,,,,,,,
+4  The number of applications awaiting a decision as of the end of the reporting period.  Some actions taken on cases are not reflected in this report such as administrative closures and transfers between offices;  thus the total pending counts cannot be calculated using data from previous reporting periods.,,,,,,,,,,,,,,,,,,,,
+Notes:,,,,,,,,,,,,,,,,,,,,
+"1) Some applications approved, denied, or pending a decision may have been received in previous reporting periods. ",,,,,,,,,,,,,,,,,,,,
+2) The report reflects the most up-to-date estimate available at the time the database is queried.,,,,,,,,,,,,,,,,,,,,
+3) Counts may differ from previous periods due to system updates and post adjudicative outcomes.,,,,,,,,,,,,,,,,,,,,
+"4) Since petitioners are able to files more than one petition, this report includes all filed petitions; therefore, it could contain multiple petitions for a single individual. ",,,,,,,,,,,,,,,,,,,,
+"5) For a complete list of USCIS forms and descriptions, visit: https://www.uscis.gov/forms",,,,,,,,,,,,,,,,,,,,
+Source:,,,,,,,,,,,,,,,,,,,,
+"Department of Homeland Security, U.S. Citizenship and Immigration Services, Office of Performance and Quality",,,,,,,,,,,,,,,,,,,,
+"CLAIMS3, queried 05/2023, TRK 11862",,,,,,,,,,,,,,,,,,,,
