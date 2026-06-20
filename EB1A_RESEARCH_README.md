@@ -61,7 +61,9 @@ This is the yearly current-status table. It includes:
 Coverage:
 
 - `historic`: FY2009-FY2025, using the latest available yearly snapshot for each cohort year;
-- `actual`: FY2026 Q1, using RADP Q1 data.
+- `actual`: FY2019-FY2025, using the last available same-year preference/country report (Q4), plus FY2026 Q1 from RADP.
+
+No `actual` rows are created before FY2019 because the local database does not contain a same-year preference/country source for those fiscal years.
 
 This table is useful for high-level annual context but does not provide direct E11 cohort conversion.
 
@@ -284,4 +286,3 @@ This supports the hypothesis of a worsening EB1A adjudication environment, but t
 5. Keep FY2026 marked as partial-year/Q1-only in all charts.
 6. Re-run the notebook when FY2026 Q2 data is added.
 7. Build a dashboard view with E11, EB1, EB2, NIW, and proxy forecast metrics.
-
