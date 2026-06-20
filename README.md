@@ -35,6 +35,7 @@ Start here:
 - [EB1A Illustrated Report - Markdown](EB1A_ILLUSTRATED_REPORT.md)
 - [EB1A Illustrated Report - PDF](EB1A_ILLUSTRATED_REPORT.pdf)
 - [Chart export pack](eb1a_research_exports/README.md)
+- [E11/NIW pending-outcome forecast notebook](eb1a_niw_pending_forecast.ipynb)
 
 Key chart:
 
@@ -76,6 +77,7 @@ Important analysis tables:
 ├── sql/                      # PostgreSQL schema and seed scripts
 ├── src/                      # parser/pipeline code
 ├── eb1a_trend_analysis.ipynb # main EB1A/E11 analysis notebook
+├── eb1a_niw_pending_forecast.ipynb # pending maturation, tests, and forecast index
 ├── uscis_analysis_workbook.ipynb
 ├── EB1A_ILLUSTRATED_REPORT.md
 ├── EB1A_ILLUSTRATED_REPORT.pdf
