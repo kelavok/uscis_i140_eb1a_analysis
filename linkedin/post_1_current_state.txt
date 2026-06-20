@@ -1,0 +1,18 @@
+What is happening to EB1A (E11) and NIW right now?
+
+USCIS I-140 data can be difficult to interpret because fresh reporting periods mix completed decisions with a rapidly growing pending inventory. To separate those effects, I built a local database from USCIS quarterly and annual reports and compared the same fiscal quarters over time.
+
+The FY2026 Q1 signal is unusually negative.
+
+For E11 / EB1A, the denial share among decided cases was remarkably stable in Q1 of FY2022-FY2025: 26.1%, 25.8%, 26.7%, and 25.3%. In FY2026 Q1 it jumped to 52.5%.
+
+At the same time, E11 approvals as a share of receipts fell from 62.2% in FY2024 Q1 to 43.8% in FY2025 Q1 and 28.1% in FY2026 Q1. Pending inventory rose to 24,653.
+
+NIW shows an even clearer multi-year deterioration. Its Q1 denial share among decided cases increased from 6.6% in FY2022 to 15.0% in FY2023, 23.3% in FY2024, 37.3% in FY2025, and 57.4% in FY2026. NIW pending inventory reached 82,812 in FY2026 Q1.
+
+This does not mean that 52.5% or 57.4% will be the final denial rate for every filing cohort. Quarterly pending is an inventory stock, not a clean cohort. But the comparison is still important: FY2026 is not only weaker than FY2025, it is an outlier against every available Q1 baseline.
+
+The full dataset, notebook, and methodology are available here:
+https://github.com/kelavok/uscis_i140_eb1a_analysis
+
+#USCIS #EB1A #E11 #NIW #ImmigrationData #DataAnalytics

@@ -1,0 +1,34 @@
+Why can current USCIS denial rates underestimate the eventual outcome mix?
+
+The answer is pending-case maturation.
+
+For each fiscal year where both observations are available, I compared:
+
+1. the last same-year snapshot, usually Q4, called "actual";
+2. the latest later snapshot, called "historic."
+
+I then removed all approvals and denials already present in the actual snapshot. What remained was the aggregate outcome of cases that were pending at the earlier date:
+
+new approvals = historic approvals - actual approvals
+new denials = historic denials - actual denials
+
+This gives a direct estimate of how older pending inventory was later resolved for the parent categories EB1 and EB2.
+
+Across FY2019-FY2025:
+
+• EB1 denial share among cases already decided in the actual snapshots: 13.5%
+• EB1 denial share among later-resolved pending cases: 27.5%
+
+• EB2 denial share among cases already decided in the actual snapshots: 4.7%
+• EB2 denial share among later-resolved pending cases: 27.6%
+
+In odds terms, the later-resolved pending inventory was 2.44 times more denial-heavy than early EB1 decisions and 7.67 times more denial-heavy than early EB2 decisions.
+
+A paired Wilcoxon test gives p = 0.0156 for both parent categories. However, the sample contains only seven paired fiscal years, so the result should be treated as strong exploratory evidence, not a universal law.
+
+The practical conclusion is simple: using only the currently decided cases can produce an overly optimistic view of a fresh year. The unresolved tail is not random. Historically, it has contained a substantially less favorable outcome mix.
+
+Full methodology and reproducible notebook:
+https://github.com/kelavok/uscis_i140_eb1a_analysis
+
+#USCIS #PendingCases #EB1 #EB2 #ImmigrationAnalytics #DataScience
