@@ -15,6 +15,9 @@ __pycache__/
 logs/
 *.log
 
+# Internal publishing drafts and social-media assets
+linkedin/
+
 # OS/editor noise
 .DS_Store
 Thumbs.db
@@ -24,4 +27,3 @@ Thumbs.db
 # PostgreSQL / local dumps that may be generated later
 *.dump
 *.backup
-
