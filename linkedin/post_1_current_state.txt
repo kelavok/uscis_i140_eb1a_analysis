@@ -1,18 +1,30 @@
-What is happening to EB1A (E11) and NIW right now?
+EB1A and NIW denial rates have changed dramatically. Here is the short version.
 
-USCIS I-140 data can be difficult to interpret because fresh reporting periods mix completed decisions with a rapidly growing pending inventory. To separate those effects, I built a local database from USCIS quarterly and annual reports and compared the same fiscal quarters over time.
+I analyzed USCIS I-140 reports from FY2009-FY2026 Q1 and modeled how today's pending inventory may eventually resolve.
 
-The FY2026 Q1 signal is unusually negative.
+E11 / EB1A
 
-For E11 / EB1A, the denial share among decided cases was remarkably stable in Q1 of FY2022-FY2025: 26.1%, 25.8%, 26.7%, and 25.3%. In FY2026 Q1 it jumped to 52.5%.
+• Among cases already decided in FY2026 Q1, 52.5% were denied.
+• In FY2022 Q1, that figure was 26.1%.
+• After accounting for pending cases, the modeled final denial share is approximately 60.2%, with a scenario range of 45.8%-72.5%.
+• That is an increase of 34.1 percentage points compared with FY2022 Q1.
+• Q4 pending inventory grew from 6,281 in FY2022 to 21,157 in FY2025: a 3.4x increase.
 
-At the same time, E11 approvals as a share of receipts fell from 62.2% in FY2024 Q1 to 43.8% in FY2025 Q1 and 28.1% in FY2026 Q1. Pending inventory rose to 24,653.
+NIW
 
-NIW shows an even clearer multi-year deterioration. Its Q1 denial share among decided cases increased from 6.6% in FY2022 to 15.0% in FY2023, 23.3% in FY2024, 37.3% in FY2025, and 57.4% in FY2026. NIW pending inventory reached 82,812 in FY2026 Q1.
+• Among cases already decided in FY2026 Q1, 57.4% were denied.
+• In FY2022 Q1, the denial share was only 6.6%.
+• After accounting for pending cases, the modeled final denial share is approximately 72.8%, with a scenario range of 53.0%-85.8%.
+• That is an increase of 66.2 percentage points compared with FY2022 Q1.
+• Q4 pending inventory grew from 18,599 in FY2022 to 74,392 in FY2025: almost exactly 4x.
 
-This does not mean that 52.5% or 57.4% will be the final denial rate for every filing cohort. Quarterly pending is an inventory stock, not a clean cohort. But the comparison is still important: FY2026 is not only weaker than FY2025, it is an outlier against every available Q1 baseline.
+How was this estimated?
 
-The full dataset, notebook, and methodology are available here:
+I compared early annual USCIS snapshots with later historical snapshots to measure how old pending cases actually turned into approvals and denials. I then adjusted those parent-category results using quarterly differences between E11 and EB1, and between NIW and EB2.
+
+The main takeaway is not that every case now has the same probability of denial. USCIS aggregate data cannot track individual petitions, RFEs, premium processing, or case quality. But the direction is difficult to ignore: denial pressure increased sharply while pending inventory multiplied.
+
+The full dataset, notebook, charts, methodology, and limitations are available here:
 https://github.com/kelavok/uscis_i140_eb1a_analysis
 
-#USCIS #EB1A #E11 #NIW #ImmigrationData #DataAnalytics
+#EB1A #E11 #NIW #USCIS #ImmigrationData #DataAnalytics

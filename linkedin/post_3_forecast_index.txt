@@ -1,34 +1,41 @@
-Can we estimate how current E11 and NIW pending inventory may eventually resolve?
+How was the parent-category pending correction transferred to E11 and NIW?
 
-I built an exploratory forecast by combining two signals.
+The annual snapshots only provide long-term maturation data for EB1 and EB2. The target programs, however, are E11 and NIW. To connect them, I used quarterly RADP data from FY2022-FY2026 Q1.
 
-First, annual USCIS snapshots show how pending inventory in the parent categories EB1 and EB2 matured into approvals and denials.
+For every quarter I calculated:
 
-Second, quarterly RADP data shows how E11 differs from EB1 and how NIW differs from EB2. Across the available quarters, E11 denial odds were about 2.31 times the EB1 parent odds. NIW denial odds were about 2.60 times the EB2 parent odds.
+program denial odds = program denials / program approvals
+parent denial odds = parent denials / parent approvals
+program-parent multiplier = program odds / parent odds
 
-The model combines those components in log-odds space:
+Across the available quarters:
+
+• E11 denial odds were approximately 2.31x EB1 odds
+• NIW denial odds were approximately 2.60x EB2 odds
+
+The program and parent series moved closely together. The correlation of log denial odds was 0.980 for E11/EB1 and 0.962 for NIW/EB2.
+
+The final model combines two time-varying components in log-odds space:
 
 program pending denial odds
 = parent pending-resolution odds trend
-x program-versus-parent odds multiplier trend
+x program-parent multiplier trend
 
-For the latest available period, FY2026 Q1, the model estimates:
+For FY2026 Q1, the model estimates the following outcome mix specifically for pending inventory:
 
-• E11 pending-to-denial share: 61.6%
-  Approximate 95% interval: 44.5%-76.2%
+• E11 pending-to-denial share: 61.6% (44.5%-76.2%)
+• NIW pending-to-denial share: 73.8% (52.7%-87.7%)
 
-• NIW pending-to-denial share: 73.8%
-  Approximate 95% interval: 52.7%-87.7%
+After combining those pending estimates with outcomes already decided, the projected aggregate final denial shares are:
 
-For context, the observed denial share among already decided FY2026 Q1 cases was 52.5% for E11 and 57.4% for NIW.
+• E11: 60.2%, scenario range 45.8%-72.5%
+• NIW: 72.8%, scenario range 53.0%-85.8%
 
-These numbers are deliberately presented as ranges. They are not individual case probabilities, and they are not a claim that every pending petition belongs to the same filing cohort. USCIS does not provide direct E11/NIW cohort tracking, RFE history, premium-processing status, or adjudicator-level controls in these aggregate files.
+These are model-based scenario ranges, not individual case probabilities. RADP pending is an inventory stock rather than a clean filing cohort. USCIS aggregate files also do not provide RFE history, premium-processing status, case strength, or adjudicator-level controls.
 
-The useful takeaway is not a single precise percentage. It is the direction and size of the correction: historical pending cases resolved less favorably than early decisions, while E11 and NIW currently show materially higher denial odds than their parent groups.
+The correct use is therefore comparative: monitor the index after every new quarter, update the ranges, and backtest them as later snapshots mature.
 
-The model should be recalculated after every new USCIS quarter and backtested as later snapshots mature.
-
-Notebook, data, charts, and limitations:
+Notebook, source tables, charts, and limitations:
 https://github.com/kelavok/uscis_i140_eb1a_analysis
 
-#EB1A #E11 #NIW #USCIS #Forecasting #ImmigrationData #DataAnalytics
+#EB1A #E11 #NIW #Forecasting #USCIS #DataScience #ImmigrationData

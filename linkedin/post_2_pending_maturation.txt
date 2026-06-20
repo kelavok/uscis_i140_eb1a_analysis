@@ -1,34 +1,38 @@
-Why can current USCIS denial rates underestimate the eventual outcome mix?
+How did I estimate what may happen to pending EB1A and NIW cases?
 
-The answer is pending-case maturation.
+The first step was to measure pending-case maturation in the broader parent categories EB1 and EB2.
 
-For each fiscal year where both observations are available, I compared:
+For each fiscal year with both observations available, I compared:
 
-1. the last same-year snapshot, usually Q4, called "actual";
-2. the latest later snapshot, called "historic."
+1. "actual": the last same-year USCIS snapshot, normally Q4;
+2. "historic": the latest later snapshot for the same fiscal-year cohort.
 
-I then removed all approvals and denials already present in the actual snapshot. What remained was the aggregate outcome of cases that were pending at the earlier date:
+The paired sample covers FY2019-FY2025. I removed decisions already present in the actual snapshot:
 
-new approvals = historic approvals - actual approvals
-new denials = historic denials - actual denials
+new approvals from pending = historic approvals - actual approvals
+new denials from pending = historic denials - actual denials
 
-This gives a direct estimate of how older pending inventory was later resolved for the parent categories EB1 and EB2.
+This isolates the aggregate outcome mix added after the early snapshot.
 
-Across FY2019-FY2025:
+Across the paired years:
 
-• EB1 denial share among cases already decided in the actual snapshots: 13.5%
+• EB1 denial share among early actual decisions: 13.5%
 • EB1 denial share among later-resolved pending cases: 27.5%
+• Pending EB1 denial odds were 2.44x the early-decision odds
+• Bootstrap interval for the multiplier: 1.66x-3.67x
 
-• EB2 denial share among cases already decided in the actual snapshots: 4.7%
+• EB2 denial share among early actual decisions: 4.7%
 • EB2 denial share among later-resolved pending cases: 27.6%
+• Pending EB2 denial odds were 7.67x the early-decision odds
+• Bootstrap interval: 4.27x-18.96x
 
-In odds terms, the later-resolved pending inventory was 2.44 times more denial-heavy than early EB1 decisions and 7.67 times more denial-heavy than early EB2 decisions.
+A paired Wilcoxon test produced p = 0.0156 for both categories. This is meaningful exploratory evidence, but the sample contains only seven paired fiscal years.
 
-A paired Wilcoxon test gives p = 0.0156 for both parent categories. However, the sample contains only seven paired fiscal years, so the result should be treated as strong exploratory evidence, not a universal law.
+I also checked accounting consistency. Increases in approvals plus denials were compared with decreases in pending inventory. All transitions were non-negative, and the maximum reconciliation gap was 5.13% of actual pending, consistent with USCIS revisions between releases.
 
-The practical conclusion is simple: using only the currently decided cases can produce an overly optimistic view of a fresh year. The unresolved tail is not random. Historically, it has contained a substantially less favorable outcome mix.
+The conclusion from this stage is important: early decided cases are not a random sample of the final population. The unresolved tail historically produced a substantially less favorable outcome mix.
 
-Full methodology and reproducible notebook:
+Full reproducible analysis:
 https://github.com/kelavok/uscis_i140_eb1a_analysis
 
-#USCIS #PendingCases #EB1 #EB2 #ImmigrationAnalytics #DataScience
+#USCIS #PendingCases #EB1 #EB2 #Statistics #ImmigrationAnalytics

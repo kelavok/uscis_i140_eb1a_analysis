@@ -11,7 +11,7 @@ Recommended images:
 - `images/01_e11_q1_comparison.png`
 - `images/02_program_vs_parent_odds.png`
 
-Focus: observed E11 and NIW denial trends, FY2026 Q1, and growing pending inventory.
+Focus: complete executive summary with observed denial rates, modeled final rates, change since FY2022, pending growth, and a short explanation of the model.
 
 ## Post 2: Pending maturation
 
@@ -22,7 +22,7 @@ Recommended images:
 - `images/03_parent_actual_vs_pending_ratio.png`
 - `images/04_parent_actual_vs_pending_denial_share.png`
 
-Focus: how actual and historic snapshots reveal the less favorable outcome mix of later-resolved pending cases.
+Focus: technical explanation of actual/historic snapshot pairing, pending maturation, bootstrap intervals, statistical testing, and reconciliation checks.
 
 ## Post 3: Forecast index
 
@@ -34,7 +34,7 @@ Recommended images:
 - `images/06_latest_pending_allocation.png`
 - `images/07_program_parent_multiplier.png`
 
-Focus: combining parent-category maturation with E11/NIW program-parent multipliers to estimate pending outcomes.
+Focus: technical explanation of the E11/EB1 and NIW/EB2 multipliers, correlations, combined log-odds model, and final scenario ranges.
 
 ## Additional chart
 
